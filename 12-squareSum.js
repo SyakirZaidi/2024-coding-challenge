@@ -6,7 +6,7 @@
 //   if (numbers == 0) {
 //     return 0;
 //   } else {
-//     return numbers.reduce((a, c) => a + Math.pow(c, 2), 0);
+//     return numbers.reduce((sum, n) => sum + Math.pow(n, 2), 0);
 //   }
 // }
 
